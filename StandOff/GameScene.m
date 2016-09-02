@@ -144,13 +144,13 @@
     [self.drawWeaponLabel runAction:pulseLoop];
     
     //labels for count down
-    SKLabelNode* one = [SKLabelNode labelNodeWithFontNamed:@"Bullpen3D"];
+    SKLabelNode* one = [SKLabelNode labelNodeWithFontNamed:@".HelveticaNeueDeskInterface-Regular"];
     one.text = @"1";
-    SKLabelNode* two = [SKLabelNode labelNodeWithFontNamed:@"Bullpen3D"];
+    SKLabelNode* two = [SKLabelNode labelNodeWithFontNamed:@".HelveticaNeueDeskInterface-Regular"];
     two.text = @"2";
-    SKLabelNode* three = [SKLabelNode labelNodeWithFontNamed:@"Bullpen3D"];
+    SKLabelNode* three = [SKLabelNode labelNodeWithFontNamed:@".HelveticaNeueDeskInterface-Regular"];
     three.text = @"3";
-    SKLabelNode* draw = [SKLabelNode labelNodeWithFontNamed:@"Bullpen3D"];
+    SKLabelNode* draw = [SKLabelNode labelNodeWithFontNamed:@".HelveticaNeueDeskInterface-Regular"];
     draw.text = @"Draw!";
     one.position = CGPointMake(0, self.floorBanner.size.height/2);
     two.position = CGPointMake(0, self.floorBanner.size.height/2);
@@ -255,16 +255,16 @@
     SKAction* pop = [SKAction scaleBy:1.8 duration:0.25];
     
     if([direction isEqualToString:@"UP"]) {
-        moveUp = [SKAction moveByX:0 y:yOffset duration:0.15];
+        moveUp = [SKAction moveByX:0 y:yOffset duration:0.05];
     }
     if([direction isEqualToString:@"DOWN"]) {
-        moveUp = [SKAction moveByX:0 y:-yOffset duration:0.15];
+        moveUp = [SKAction moveByX:0 y:-yOffset duration:0.05];
     }
     if([direction isEqualToString:@"RIGHT"]) {
-        moveUp = [SKAction moveByX:xOffset y:0 duration:0.15];
+        moveUp = [SKAction moveByX:xOffset y:0 duration:0.05];
     }
     if([direction isEqualToString:@"LEFT"]) {
-        moveUp = [SKAction moveByX:-xOffset y:0 duration:0.15];
+        moveUp = [SKAction moveByX:-xOffset y:0 duration:0.05];
     }
     
     SKAction* popAndFade = [SKAction group:@[pop, fadeOut]];
@@ -474,9 +474,9 @@
     CGPoint touchLocation = [t locationInNode:self.scene];
     
     if(CGRectContainsPoint(self.exitButton.frame, touchLocation)) {
-        NSLog(@"Start Button was pressed");
+        NSLog(@"Back Button was pressed");
         SKScene* mainMenu = [[MainMenu alloc] initWithSize:self.size];
-        SKTransition* moveToMainMenu = [SKTransition revealWithDirection:SKTransitionDirectionDown duration:1.0];
+        SKTransition* moveToMainMenu = [SKTransition revealWithDirection:SKTransitionDirectionDown duration:0.30];
         moveToMainMenu.pausesIncomingScene = NO;
         [self removeAllActions];
         [self.view presentScene:mainMenu transition:moveToMainMenu];

@@ -31,7 +31,6 @@
 		E224FB851D6FACAE00772029 /* gunSelectOutline.png in Resources */ = {isa = PBXBuildFile; fileRef = E224FB821D6FACAE00772029 /* gunSelectOutline.png */; };
 		E224FB861D6FACAE00772029 /* gunSelectOutline@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E224FB831D6FACAE00772029 /* gunSelectOutline@2x.png */; };
 		E224FB871D6FACAE00772029 /* gunSelectOutline@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = E224FB841D6FACAE00772029 /* gunSelectOutline@3x.png */; };
-		E23DD6AC1D581FEF00AA3903 /* Bullpen3D.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E2F8BB1F1D4D967300B609D0 /* Bullpen3D.ttf */; };
 		E23DD6AE1D5821AC00AA3903 /* System San Francisco Display Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E23DD6AD1D5821AC00AA3903 /* System San Francisco Display Regular.ttf */; };
 		E23DD6B01D593B9200AA3903 /* StatMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = E23DD6AF1D593B9200AA3903 /* StatMenu.m */; };
 		E23DD6B31D5BDBC100AA3903 /* whiteArrow.png in Resources */ = {isa = PBXBuildFile; fileRef = E23DD6B21D5BDBC100AA3903 /* whiteArrow.png */; };
@@ -136,7 +135,6 @@
 		E2F8BB191D47119100B609D0 /* GameStateHandler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameStateHandler.h; sourceTree = "<group>"; };
 		E2F8BB1C1D481F2600B609D0 /* Dodge.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Dodge.h; sourceTree = "<group>"; };
 		E2F8BB1D1D481F3300B609D0 /* Dodge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Dodge.m; sourceTree = "<group>"; };
-		E2F8BB1F1D4D967300B609D0 /* Bullpen3D.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = Bullpen3D.ttf; path = ../../../../../Downloads/Bullpen3D.ttf; sourceTree = "<group>"; };
 		E2F8BB201D51546D00B609D0 /* MainMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainMenu.h; sourceTree = "<group>"; };
 		E2F8BB211D51546D00B609D0 /* MainMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainMenu.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -251,7 +249,6 @@
 				E29C7D911D60009000819D4D /* shotgun.png */,
 				E27EBB511D24BC8800720B58 /* Info.plist */,
 				E23DD6AD1D5821AC00AA3903 /* System San Francisco Display Regular.ttf */,
-				E2F8BB1F1D4D967300B609D0 /* Bullpen3D.ttf */,
 				E27EBB3C1D24BC8800720B58 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -342,7 +339,7 @@
 				TargetAttributes = {
 					E27EBB371D24BC8800720B58 = {
 						CreatedOnToolsVersion = 7.3.1;
-						DevelopmentTeam = MLFMKK6BLH;
+						DevelopmentTeam = ZPB6RT7V2R;
 					};
 					E27EBB551D24BC8800720B58 = {
 						CreatedOnToolsVersion = 7.3.1;
@@ -410,7 +407,6 @@
 				E29C7D941D60009B00819D4D /* handgun.png in Resources */,
 				E224FB671D62B79000772029 /* statButton@2x.png in Resources */,
 				E224FB861D6FACAE00772029 /* gunSelectOutline@2x.png in Resources */,
-				E23DD6AC1D581FEF00AA3903 /* Bullpen3D.ttf in Resources */,
 				E27EBB4B1D24BC8800720B58 /* Main.storyboard in Resources */,
 				E224FB781D68199700772029 /* BodyBase.png in Resources */,
 			);
@@ -593,11 +589,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = StandOff/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.TomMalitz.StandOff;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -606,11 +604,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = StandOff/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.TomMalitz.StandOff;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};

@@ -158,7 +158,7 @@
         if(self.playButton.alpha==0.5) {
             NSLog(@"Start Button was pressed");
             SKScene* gameRoom = [[GameScene alloc] initWithSize:self.size];
-            SKTransition* moveToGameRoom = [SKTransition revealWithDirection:SKTransitionDirectionUp duration:1.0];
+            SKTransition* moveToGameRoom = [SKTransition revealWithDirection:SKTransitionDirectionUp duration:0.30];
             moveToGameRoom.pausesIncomingScene = NO;
             [self removeAllActions];
             [self.view presentScene:gameRoom transition:moveToGameRoom];
@@ -169,7 +169,7 @@
             // do whatever for first menu
             NSLog(@"Stats Button was pressed");
             SKScene* statMenu = [[StatMenu alloc] initWithSize:self.size];
-            SKTransition* moveToStatScreen = [SKTransition doorsOpenHorizontalWithDuration:1.0];
+            SKTransition* moveToStatScreen = [SKTransition doorsOpenHorizontalWithDuration:0.30];
             moveToStatScreen.pausesIncomingScene = NO;
             [self removeAllActions];
             [self.view presentScene:statMenu transition:moveToStatScreen];

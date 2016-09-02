@@ -8,6 +8,7 @@
 
 #import "GameViewController.h"
 #import "GameScene.h"
+#import "MainMenu.h"
 
 @implementation GameViewController
 
@@ -23,16 +24,19 @@
     skView.ignoresSiblingOrder = YES;
     
     // Create and configure the scene.
-    GameScene *scene = [GameScene nodeWithFileNamed:@"GameScene"];
-    scene.scaleMode = SKSceneScaleModeAspectFill;
+    MainMenu* menu = [MainMenu sceneWithSize:skView.bounds.size];
+    //GameScene *scene = [GameScene nodeWithFileNamed:@"GameScene"];
+    menu.scaleMode = SKSceneScaleModeAspectFill;
+    
     
     // Present the scene.
-    [skView presentScene:scene];
+    [skView presentScene:menu];
 }
+
 
 - (BOOL)shouldAutorotate
 {
-    return YES;
+    return NO;
 }
 
 - (UIInterfaceOrientationMask)supportedInterfaceOrientations
@@ -42,6 +46,8 @@
     } else {
         return UIInterfaceOrientationMaskAll;
     }
+    
+    //return UIInterfaceOrientationMaskLandscape;
 }
 
 - (void)didReceiveMemoryWarning

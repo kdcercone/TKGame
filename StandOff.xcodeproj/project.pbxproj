@@ -7,6 +7,35 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E224FB501D62B59100772029 /* howToButton.png in Resources */ = {isa = PBXBuildFile; fileRef = E224FB4F1D62B59100772029 /* howToButton.png */; };
+		E224FB521D62B5A100772029 /* statButton.png in Resources */ = {isa = PBXBuildFile; fileRef = E224FB511D62B5A100772029 /* statButton.png */; };
+		E224FB541D62B5A700772029 /* playButton.png in Resources */ = {isa = PBXBuildFile; fileRef = E224FB531D62B5A700772029 /* playButton.png */; };
+		E224FB561D62B5B400772029 /* customizeButton.png in Resources */ = {isa = PBXBuildFile; fileRef = E224FB551D62B5B400772029 /* customizeButton.png */; };
+		E224FB601D62B79000772029 /* customizeButton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E224FB571D62B79000772029 /* customizeButton@2x.png */; };
+		E224FB611D62B79000772029 /* customizeButton@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = E224FB581D62B79000772029 /* customizeButton@3x.png */; };
+		E224FB621D62B79000772029 /* howToButton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E224FB591D62B79000772029 /* howToButton@2x.png */; };
+		E224FB631D62B79000772029 /* howToButton@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = E224FB5A1D62B79000772029 /* howToButton@3x.png */; };
+		E224FB641D62B79000772029 /* playButton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E224FB5B1D62B79000772029 /* playButton@2x.png */; };
+		E224FB651D62B79000772029 /* playButton@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = E224FB5C1D62B79000772029 /* playButton@3x.png */; };
+		E224FB661D62B79000772029 /* sniper3x.png in Resources */ = {isa = PBXBuildFile; fileRef = E224FB5D1D62B79000772029 /* sniper3x.png */; };
+		E224FB671D62B79000772029 /* statButton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E224FB5E1D62B79000772029 /* statButton@2x.png */; };
+		E224FB681D62B79000772029 /* statButton@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = E224FB5F1D62B79000772029 /* statButton@3x.png */; };
+		E224FB6A1D63CDA100772029 /* Button.m in Sources */ = {isa = PBXBuildFile; fileRef = E224FB691D63CDA100772029 /* Button.m */; };
+		E224FB781D68199700772029 /* BodyBase.png in Resources */ = {isa = PBXBuildFile; fileRef = E224FB741D68199700772029 /* BodyBase.png */; };
+		E224FB791D68199700772029 /* BodyBase.svg in Resources */ = {isa = PBXBuildFile; fileRef = E224FB751D68199700772029 /* BodyBase.svg */; };
+		E224FB7A1D68199700772029 /* BodyBase@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E224FB761D68199700772029 /* BodyBase@2x.png */; };
+		E224FB7B1D68199700772029 /* BodyBase@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = E224FB771D68199700772029 /* BodyBase@3x.png */; };
+		E224FB7F1D6E972200772029 /* floorBannerGreenBlue.png in Resources */ = {isa = PBXBuildFile; fileRef = E224FB7C1D6E972200772029 /* floorBannerGreenBlue.png */; };
+		E224FB801D6E972200772029 /* floorBannerGreenBlue@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E224FB7D1D6E972200772029 /* floorBannerGreenBlue@2x.png */; };
+		E224FB811D6E972200772029 /* floorBannerGreenBlue@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = E224FB7E1D6E972200772029 /* floorBannerGreenBlue@3x.png */; };
+		E224FB851D6FACAE00772029 /* gunSelectOutline.png in Resources */ = {isa = PBXBuildFile; fileRef = E224FB821D6FACAE00772029 /* gunSelectOutline.png */; };
+		E224FB861D6FACAE00772029 /* gunSelectOutline@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E224FB831D6FACAE00772029 /* gunSelectOutline@2x.png */; };
+		E224FB871D6FACAE00772029 /* gunSelectOutline@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = E224FB841D6FACAE00772029 /* gunSelectOutline@3x.png */; };
+		E23DD6AC1D581FEF00AA3903 /* Bullpen3D.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E2F8BB1F1D4D967300B609D0 /* Bullpen3D.ttf */; };
+		E23DD6AE1D5821AC00AA3903 /* System San Francisco Display Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E23DD6AD1D5821AC00AA3903 /* System San Francisco Display Regular.ttf */; };
+		E23DD6B01D593B9200AA3903 /* StatMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = E23DD6AF1D593B9200AA3903 /* StatMenu.m */; };
+		E23DD6B31D5BDBC100AA3903 /* whiteArrow.png in Resources */ = {isa = PBXBuildFile; fileRef = E23DD6B21D5BDBC100AA3903 /* whiteArrow.png */; };
+		E23DD6B51D5BDC7400AA3903 /* greenArrow.png in Resources */ = {isa = PBXBuildFile; fileRef = E23DD6B41D5BDC7400AA3903 /* greenArrow.png */; };
 		E27EBB3D1D24BC8800720B58 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E27EBB3C1D24BC8800720B58 /* main.m */; };
 		E27EBB401D24BC8800720B58 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E27EBB3F1D24BC8800720B58 /* AppDelegate.m */; };
 		E27EBB431D24BC8800720B58 /* GameScene.m in Sources */ = {isa = PBXBuildFile; fileRef = E27EBB421D24BC8800720B58 /* GameScene.m */; };
@@ -17,6 +46,16 @@
 		E27EBB501D24BC8800720B58 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E27EBB4E1D24BC8800720B58 /* LaunchScreen.storyboard */; };
 		E27EBB5B1D24BC8800720B58 /* StandOffTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E27EBB5A1D24BC8800720B58 /* StandOffTests.m */; };
 		E27EBB661D24BC8800720B58 /* StandOffUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E27EBB651D24BC8800720B58 /* StandOffUITests.m */; };
+		E29C7D921D60009000819D4D /* shotgun.png in Resources */ = {isa = PBXBuildFile; fileRef = E29C7D911D60009000819D4D /* shotgun.png */; };
+		E29C7D941D60009B00819D4D /* handgun.png in Resources */ = {isa = PBXBuildFile; fileRef = E29C7D931D60009B00819D4D /* handgun.png */; };
+		E29C7D961D6000A100819D4D /* sniper.png in Resources */ = {isa = PBXBuildFile; fileRef = E29C7D951D6000A100819D4D /* sniper.png */; };
+		E2F8BB121D46C6CB00B609D0 /* Player.m in Sources */ = {isa = PBXBuildFile; fileRef = E2F8BB111D46C6CB00B609D0 /* Player.m */; };
+		E2F8BB161D46C80D00B609D0 /* Weapon.m in Sources */ = {isa = PBXBuildFile; fileRef = E2F8BB151D46C80D00B609D0 /* Weapon.m */; };
+		E2F8BB181D47118100B609D0 /* GameStateHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = E2F8BB171D47118100B609D0 /* GameStateHandler.m */; };
+		E2F8BB1A1D481C6E00B609D0 /* Weapon.h in Sources */ = {isa = PBXBuildFile; fileRef = E2F8BB141D46C7F800B609D0 /* Weapon.h */; };
+		E2F8BB1B1D481C7500B609D0 /* Player.h in Sources */ = {isa = PBXBuildFile; fileRef = E2F8BB131D46C6E900B609D0 /* Player.h */; };
+		E2F8BB1E1D481F3300B609D0 /* Dodge.m in Sources */ = {isa = PBXBuildFile; fileRef = E2F8BB1D1D481F3300B609D0 /* Dodge.m */; };
+		E2F8BB221D51546D00B609D0 /* MainMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = E2F8BB211D51546D00B609D0 /* MainMenu.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +76,36 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E224FB4F1D62B59100772029 /* howToButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = howToButton.png; sourceTree = "<group>"; };
+		E224FB511D62B5A100772029 /* statButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = statButton.png; sourceTree = "<group>"; };
+		E224FB531D62B5A700772029 /* playButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = playButton.png; sourceTree = "<group>"; };
+		E224FB551D62B5B400772029 /* customizeButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = customizeButton.png; sourceTree = "<group>"; };
+		E224FB571D62B79000772029 /* customizeButton@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "customizeButton@2x.png"; sourceTree = "<group>"; };
+		E224FB581D62B79000772029 /* customizeButton@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "customizeButton@3x.png"; sourceTree = "<group>"; };
+		E224FB591D62B79000772029 /* howToButton@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "howToButton@2x.png"; sourceTree = "<group>"; };
+		E224FB5A1D62B79000772029 /* howToButton@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "howToButton@3x.png"; sourceTree = "<group>"; };
+		E224FB5B1D62B79000772029 /* playButton@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "playButton@2x.png"; sourceTree = "<group>"; };
+		E224FB5C1D62B79000772029 /* playButton@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "playButton@3x.png"; sourceTree = "<group>"; };
+		E224FB5D1D62B79000772029 /* sniper3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sniper3x.png; sourceTree = "<group>"; };
+		E224FB5E1D62B79000772029 /* statButton@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "statButton@2x.png"; sourceTree = "<group>"; };
+		E224FB5F1D62B79000772029 /* statButton@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "statButton@3x.png"; sourceTree = "<group>"; };
+		E224FB691D63CDA100772029 /* Button.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Button.m; sourceTree = "<group>"; };
+		E224FB6B1D63CDB400772029 /* Button.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Button.h; sourceTree = "<group>"; };
+		E224FB741D68199700772029 /* BodyBase.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BodyBase.png; sourceTree = "<group>"; };
+		E224FB751D68199700772029 /* BodyBase.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = BodyBase.svg; sourceTree = "<group>"; };
+		E224FB761D68199700772029 /* BodyBase@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "BodyBase@2x.png"; sourceTree = "<group>"; };
+		E224FB771D68199700772029 /* BodyBase@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "BodyBase@3x.png"; sourceTree = "<group>"; };
+		E224FB7C1D6E972200772029 /* floorBannerGreenBlue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = floorBannerGreenBlue.png; sourceTree = "<group>"; };
+		E224FB7D1D6E972200772029 /* floorBannerGreenBlue@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "floorBannerGreenBlue@2x.png"; sourceTree = "<group>"; };
+		E224FB7E1D6E972200772029 /* floorBannerGreenBlue@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "floorBannerGreenBlue@3x.png"; sourceTree = "<group>"; };
+		E224FB821D6FACAE00772029 /* gunSelectOutline.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gunSelectOutline.png; sourceTree = "<group>"; };
+		E224FB831D6FACAE00772029 /* gunSelectOutline@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "gunSelectOutline@2x.png"; sourceTree = "<group>"; };
+		E224FB841D6FACAE00772029 /* gunSelectOutline@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "gunSelectOutline@3x.png"; sourceTree = "<group>"; };
+		E23DD6AD1D5821AC00AA3903 /* System San Francisco Display Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "System San Francisco Display Regular.ttf"; sourceTree = "<group>"; };
+		E23DD6AF1D593B9200AA3903 /* StatMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StatMenu.m; sourceTree = "<group>"; };
+		E23DD6B11D593BA400AA3903 /* StatMenu.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StatMenu.h; sourceTree = "<group>"; };
+		E23DD6B21D5BDBC100AA3903 /* whiteArrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = whiteArrow.png; sourceTree = "<group>"; };
+		E23DD6B41D5BDC7400AA3903 /* greenArrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = greenArrow.png; sourceTree = "<group>"; };
 		E27EBB381D24BC8800720B58 /* StandOff.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StandOff.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E27EBB3C1D24BC8800720B58 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		E27EBB3E1D24BC8800720B58 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -56,6 +125,20 @@
 		E27EBB611D24BC8800720B58 /* StandOffUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StandOffUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E27EBB651D24BC8800720B58 /* StandOffUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StandOffUITests.m; sourceTree = "<group>"; };
 		E27EBB671D24BC8800720B58 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E29C7D911D60009000819D4D /* shotgun.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = shotgun.png; sourceTree = "<group>"; };
+		E29C7D931D60009B00819D4D /* handgun.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = handgun.png; sourceTree = "<group>"; };
+		E29C7D951D6000A100819D4D /* sniper.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sniper.png; sourceTree = "<group>"; };
+		E2F8BB111D46C6CB00B609D0 /* Player.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Player.m; sourceTree = "<group>"; };
+		E2F8BB131D46C6E900B609D0 /* Player.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Player.h; sourceTree = "<group>"; };
+		E2F8BB141D46C7F800B609D0 /* Weapon.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Weapon.h; sourceTree = "<group>"; };
+		E2F8BB151D46C80D00B609D0 /* Weapon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Weapon.m; sourceTree = "<group>"; };
+		E2F8BB171D47118100B609D0 /* GameStateHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameStateHandler.m; sourceTree = "<group>"; };
+		E2F8BB191D47119100B609D0 /* GameStateHandler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameStateHandler.h; sourceTree = "<group>"; };
+		E2F8BB1C1D481F2600B609D0 /* Dodge.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Dodge.h; sourceTree = "<group>"; };
+		E2F8BB1D1D481F3300B609D0 /* Dodge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Dodge.m; sourceTree = "<group>"; };
+		E2F8BB1F1D4D967300B609D0 /* Bullpen3D.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = Bullpen3D.ttf; path = ../../../../../Downloads/Bullpen3D.ttf; sourceTree = "<group>"; };
+		E2F8BB201D51546D00B609D0 /* MainMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainMenu.h; sourceTree = "<group>"; };
+		E2F8BB211D51546D00B609D0 /* MainMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainMenu.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,15 +191,28 @@
 			children = (
 				E27EBB3E1D24BC8800720B58 /* AppDelegate.h */,
 				E27EBB3F1D24BC8800720B58 /* AppDelegate.m */,
+				E224FB6B1D63CDB400772029 /* Button.h */,
+				E224FB691D63CDA100772029 /* Button.m */,
+				E2F8BB141D46C7F800B609D0 /* Weapon.h */,
+				E2F8BB151D46C80D00B609D0 /* Weapon.m */,
+				E2F8BB131D46C6E900B609D0 /* Player.h */,
+				E2F8BB111D46C6CB00B609D0 /* Player.m */,
+				E2F8BB1C1D481F2600B609D0 /* Dodge.h */,
+				E2F8BB1D1D481F3300B609D0 /* Dodge.m */,
+				E2F8BB191D47119100B609D0 /* GameStateHandler.h */,
+				E2F8BB171D47118100B609D0 /* GameStateHandler.m */,
 				E27EBB411D24BC8800720B58 /* GameScene.h */,
 				E27EBB421D24BC8800720B58 /* GameScene.m */,
+				E2F8BB201D51546D00B609D0 /* MainMenu.h */,
+				E2F8BB211D51546D00B609D0 /* MainMenu.m */,
+				E23DD6B11D593BA400AA3903 /* StatMenu.h */,
+				E23DD6AF1D593B9200AA3903 /* StatMenu.m */,
 				E27EBB441D24BC8800720B58 /* GameScene.sks */,
 				E27EBB461D24BC8800720B58 /* GameViewController.h */,
 				E27EBB471D24BC8800720B58 /* GameViewController.m */,
 				E27EBB491D24BC8800720B58 /* Main.storyboard */,
 				E27EBB4C1D24BC8800720B58 /* Assets.xcassets */,
 				E27EBB4E1D24BC8800720B58 /* LaunchScreen.storyboard */,
-				E27EBB511D24BC8800720B58 /* Info.plist */,
 				E27EBB3B1D24BC8800720B58 /* Supporting Files */,
 			);
 			path = StandOff;
@@ -125,6 +221,37 @@
 		E27EBB3B1D24BC8800720B58 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				E224FB821D6FACAE00772029 /* gunSelectOutline.png */,
+				E224FB831D6FACAE00772029 /* gunSelectOutline@2x.png */,
+				E224FB841D6FACAE00772029 /* gunSelectOutline@3x.png */,
+				E23DD6B21D5BDBC100AA3903 /* whiteArrow.png */,
+				E224FB551D62B5B400772029 /* customizeButton.png */,
+				E224FB511D62B5A100772029 /* statButton.png */,
+				E224FB741D68199700772029 /* BodyBase.png */,
+				E224FB751D68199700772029 /* BodyBase.svg */,
+				E224FB761D68199700772029 /* BodyBase@2x.png */,
+				E224FB771D68199700772029 /* BodyBase@3x.png */,
+				E224FB531D62B5A700772029 /* playButton.png */,
+				E224FB571D62B79000772029 /* customizeButton@2x.png */,
+				E224FB7C1D6E972200772029 /* floorBannerGreenBlue.png */,
+				E224FB7D1D6E972200772029 /* floorBannerGreenBlue@2x.png */,
+				E224FB7E1D6E972200772029 /* floorBannerGreenBlue@3x.png */,
+				E224FB581D62B79000772029 /* customizeButton@3x.png */,
+				E224FB591D62B79000772029 /* howToButton@2x.png */,
+				E224FB5A1D62B79000772029 /* howToButton@3x.png */,
+				E224FB5B1D62B79000772029 /* playButton@2x.png */,
+				E224FB5C1D62B79000772029 /* playButton@3x.png */,
+				E224FB5D1D62B79000772029 /* sniper3x.png */,
+				E224FB5E1D62B79000772029 /* statButton@2x.png */,
+				E224FB5F1D62B79000772029 /* statButton@3x.png */,
+				E224FB4F1D62B59100772029 /* howToButton.png */,
+				E23DD6B41D5BDC7400AA3903 /* greenArrow.png */,
+				E29C7D951D6000A100819D4D /* sniper.png */,
+				E29C7D931D60009B00819D4D /* handgun.png */,
+				E29C7D911D60009000819D4D /* shotgun.png */,
+				E27EBB511D24BC8800720B58 /* Info.plist */,
+				E23DD6AD1D5821AC00AA3903 /* System San Francisco Display Regular.ttf */,
+				E2F8BB1F1D4D967300B609D0 /* Bullpen3D.ttf */,
 				E27EBB3C1D24BC8800720B58 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -215,6 +342,7 @@
 				TargetAttributes = {
 					E27EBB371D24BC8800720B58 = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = MLFMKK6BLH;
 					};
 					E27EBB551D24BC8800720B58 = {
 						CreatedOnToolsVersion = 7.3.1;
@@ -251,10 +379,40 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E224FB651D62B79000772029 /* playButton@3x.png in Resources */,
+				E224FB791D68199700772029 /* BodyBase.svg in Resources */,
+				E224FB641D62B79000772029 /* playButton@2x.png in Resources */,
+				E224FB521D62B5A100772029 /* statButton.png in Resources */,
+				E29C7D961D6000A100819D4D /* sniper.png in Resources */,
+				E224FB631D62B79000772029 /* howToButton@3x.png in Resources */,
+				E224FB601D62B79000772029 /* customizeButton@2x.png in Resources */,
 				E27EBB451D24BC8800720B58 /* GameScene.sks in Resources */,
+				E224FB811D6E972200772029 /* floorBannerGreenBlue@3x.png in Resources */,
+				E224FB681D62B79000772029 /* statButton@3x.png in Resources */,
+				E23DD6AE1D5821AC00AA3903 /* System San Francisco Display Regular.ttf in Resources */,
+				E224FB7B1D68199700772029 /* BodyBase@3x.png in Resources */,
+				E224FB611D62B79000772029 /* customizeButton@3x.png in Resources */,
+				E224FB661D62B79000772029 /* sniper3x.png in Resources */,
+				E224FB561D62B5B400772029 /* customizeButton.png in Resources */,
+				E224FB7F1D6E972200772029 /* floorBannerGreenBlue.png in Resources */,
+				E224FB501D62B59100772029 /* howToButton.png in Resources */,
+				E224FB851D6FACAE00772029 /* gunSelectOutline.png in Resources */,
+				E224FB541D62B5A700772029 /* playButton.png in Resources */,
+				E29C7D921D60009000819D4D /* shotgun.png in Resources */,
 				E27EBB501D24BC8800720B58 /* LaunchScreen.storyboard in Resources */,
+				E224FB801D6E972200772029 /* floorBannerGreenBlue@2x.png in Resources */,
+				E23DD6B31D5BDBC100AA3903 /* whiteArrow.png in Resources */,
 				E27EBB4D1D24BC8800720B58 /* Assets.xcassets in Resources */,
+				E23DD6B51D5BDC7400AA3903 /* greenArrow.png in Resources */,
+				E224FB871D6FACAE00772029 /* gunSelectOutline@3x.png in Resources */,
+				E224FB7A1D68199700772029 /* BodyBase@2x.png in Resources */,
+				E224FB621D62B79000772029 /* howToButton@2x.png in Resources */,
+				E29C7D941D60009B00819D4D /* handgun.png in Resources */,
+				E224FB671D62B79000772029 /* statButton@2x.png in Resources */,
+				E224FB861D6FACAE00772029 /* gunSelectOutline@2x.png in Resources */,
+				E23DD6AC1D581FEF00AA3903 /* Bullpen3D.ttf in Resources */,
 				E27EBB4B1D24BC8800720B58 /* Main.storyboard in Resources */,
+				E224FB781D68199700772029 /* BodyBase.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -279,10 +437,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E2F8BB1B1D481C7500B609D0 /* Player.h in Sources */,
+				E2F8BB1A1D481C6E00B609D0 /* Weapon.h in Sources */,
+				E23DD6B01D593B9200AA3903 /* StatMenu.m in Sources */,
 				E27EBB481D24BC8800720B58 /* GameViewController.m in Sources */,
 				E27EBB401D24BC8800720B58 /* AppDelegate.m in Sources */,
+				E2F8BB221D51546D00B609D0 /* MainMenu.m in Sources */,
 				E27EBB431D24BC8800720B58 /* GameScene.m in Sources */,
+				E224FB6A1D63CDA100772029 /* Button.m in Sources */,
+				E2F8BB161D46C80D00B609D0 /* Weapon.m in Sources */,
 				E27EBB3D1D24BC8800720B58 /* main.m in Sources */,
+				E2F8BB1E1D481F3300B609D0 /* Dodge.m in Sources */,
+				E2F8BB121D46C6CB00B609D0 /* Player.m in Sources */,
+				E2F8BB181D47118100B609D0 /* GameStateHandler.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -425,7 +592,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = StandOff/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.TomMalitz.StandOff;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -436,7 +605,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = StandOff/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.TomMalitz.StandOff;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -510,6 +681,7 @@
 				E27EBB6C1D24BC8800720B58 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E27EBB6D1D24BC8800720B58 /* Build configuration list for PBXNativeTarget "StandOffTests" */ = {
 			isa = XCConfigurationList;
@@ -518,6 +690,7 @@
 				E27EBB6F1D24BC8800720B58 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E27EBB701D24BC8800720B58 /* Build configuration list for PBXNativeTarget "StandOffUITests" */ = {
 			isa = XCConfigurationList;
@@ -526,6 +699,7 @@
 				E27EBB721D24BC8800720B58 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
